@@ -1,0 +1,10 @@
+# 1. Make sure you have Node.Js installed
+
+# 2. On the terminal run the following commands:
+    ## npm install http-server -g
+    ## git clone https://github.com/taynaraMarcondes/ClickMe.git
+
+# 3. Make sure you are inside the folder "Test" on the terminal and run the following command:
+    ## http-server
+
+# 4. Go to http://localhost:8080/ClickMe.html and enjoy!
