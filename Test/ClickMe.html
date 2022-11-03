@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<dialog id="dialog">
+  <form method="dialog">
+    <p>Are you sure you want to continue?</p>
+    <button name="button" value="Ok" onclick="okClicked(this)">Ok</button>
+    <button name="button" value="Cancel" onclick="cancelClicked(this)">Cancel</button>
+  </form>
+</dialog>
+<input id="button" type="submit" name="clickMeButton" onclick="dialog.showModal()" value="Click Me" />
+<h1><b id="heading"></b></h1>
+
+<script type="text/javascript" src="ClickMe.js"></script>
+
+</html>
